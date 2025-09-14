@@ -252,3 +252,67 @@ button {
   .btn-wrapper{
     margin-top: 35px;
   }
+
+  @media (max-width: 768px) {
+    .nav-info {
+      flex-direction: column;
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .logo img {
+      transform: scale(3);
+      margin: 0 auto;
+    }
+  
+    .text-container p,
+    .square-text p {
+      padding: 1rem;
+      font-size: 1em;
+      line-height: 1.6em;
+    }
+  
+    .square {
+      grid-template-columns: 1fr;
+      margin-left: 0;
+    }
+  
+    .square-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .square-text {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .text-box {
+      margin-left: 0;
+      width: 90%;
+      font-size: 1.2em;
+    }
+  
+    .footer-wrapper {
+      padding: 1rem;
+    }
+  
+    .social-media-icons {
+      flex-direction: column;
+      gap: 1rem;
+      width: auto;
+    }
+  
+    .form-wrapper {
+      flex-direction: column;
+      font-size: 1.5em;
+      padding: 1rem;
+    }
+  
+    input,
+    #max_calories,
+    button {
+      width: 100%;
+      font-size: 1em;
+    }
+  }
