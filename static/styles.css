@@ -255,119 +255,62 @@ button:hover {
 
 /*Shrinked Desktop*/
 @media (max-width: 1200px) and (min-width: 993px) {
-  .about-container>.text-container p {
-      padding: 15px 60px;
+  .navigation-wrapper {
+      display: flex;
+      flex-wrap: wrap;        /* اجازه می‌دهد آیتم‌ها به خط بعدی بروند */
+      align-items: center;    /* وسط‌چین عمودی */
+      justify-content: center;/* وسط‌چین افقی */
+      padding: 50px 20px;     /* فضای بالا و پایین */
+      gap: 25px;               /* فاصله بین لوگو و nav-info */
+      height: auto;           /* ارتفاع خودکار */
   }
 
-  .about-container>.squares-container>.square {
-      margin-left: 60px;
-      grid-template-columns: 1fr 1.5fr;
+  .navigation-wrapper > .logo-wrapper > .logo img {
+      transform: scale(4);    /* لوگو بزرگ ولی متناسب */
+      margin: 0 auto;         /* وسط‌چین کردن */
+      display: block;
   }
 
-  .about-container>.squares-container>.square>.square-image img {
-      width: 300px;
-  }
-
-  .about-container>.squares-container>.square>.square-text {
-      width: auto;
-      margin-left: 0;
-  }
-
-  .footer-wrapper>.social-media-wrapper>.social-media-icons {
-      width: 350px;
-      font-size: 1.6em;
+  .navigation-wrapper > .nav-info {
+      flex: 1 1 100%;         /* عرض کامل */
+      text-align: center;     /* متن وسط‌چین */
+      margin-top: 20px;       /* فاصله از لوگو */
+      padding-left: 0;        /* حذف padding اضافه */
   }
 
   .no-style-link {
-    font-size: 1.1em;  
+      font-size: 1.1em;       /* اندازه فونت مناسب */
+  }
 }
-
-.navigation-wrapper {
-  flex-wrap: wrap;       
-  align-items: center;   
-  justify-content: center;
-  height: auto;          
-  padding: 30px 20px;
-}
-
-.navigation-wrapper > .nav-info {
-  flex: 1 1 100%;        
-  text-align: center;    
-  margin-top: 20px;      
-  padding-left: 0;       
-}
-
-}
-
 
 
 /*Phones*/
+/* Phones - Optimized */
 @media (max-width: 768px) {
   .navigation-wrapper {
-    flex-direction: column;  
-    align-items: center;      
-    justify-content: center;
-    height: auto;             
-    padding: 20px;            
-}
-
-.navigation-wrapper > .nav-info {
-    margin-top: 15px;         
-    padding-left: 0;          
-    text-align: center;      
-}
-  .navigation-wrapper>.logo-wrapper>.logo img {
-      transform: scale(3);
-      margin: 0 auto;
+      display: flex;
+      flex-direction: column;   /* آیتم‌ها روی هم قرار می‌گیرند */
+      align-items: center;      /* وسط‌چین عمودی */
+      justify-content: center;  /* وسط‌چین افقی */
+      padding: 40px 20px;       /* فضای کافی بالا و پایین */
+      gap: 20px;                /* فاصله بین لوگو و nav-info */
+      height: auto;             /* ارتفاع خودکار */
   }
 
-  .about-container>.text-container p {
-      padding: 15px 20px;
-      font-size: 0.95em;
-  }
-
-  .about-container>.squares-container>.square {
+  .navigation-wrapper > .logo-wrapper > .logo img {
+      transform: scale(3);      /* اندازه لوگو مناسب موبایل */
+      margin: 0 auto;           /* وسط‌چین کردن لوگو */
       display: block;
-      margin-left: 0;
   }
 
-  .about-container>.squares-container>.square>.square-image img {
-      width: 100%;
-      max-width: 250px;
-      display: block;
-      margin: 0 auto 20px;
-  }
-
-  .about-container>.squares-container>.square>.square-text {
-      width: auto;
-      margin: 0 15px;
-      text-align: justify;
-  }
-
-  .footer-wrapper>.social-media-wrapper {
-      margin-top: 30px;
-  }
-
-  .footer-wrapper>.social-media-wrapper>.social-media-icons {
-      flex-direction: column;
-      width: auto;
-      gap: 15px;
-      font-size: 1.4em;
+  .navigation-wrapper > .nav-info {
+      width: 100%;              /* عرض کامل */
+      text-align: center;       /* متن وسط‌چین */
+      margin-top: 15px;         /* فاصله از لوگو */
+      padding-left: 0;          /* حذف padding اضافی */
   }
 
   .no-style-link {
-    font-size: 1em;  
-}
-
-.navigation-wrapper {
-  height: auto;   
-  padding: 40px 20px; 
-  flex-direction: column;
-}
-
-.navigation-wrapper>.nav-info {
-  padding-left: 0;
-  margin-top: 20px;
-  justify-content: center;
-}
+      font-size: 1em;           /* اندازه فونت مناسب موبایل */
+  }
 }
