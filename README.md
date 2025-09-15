@@ -36,8 +36,8 @@ Check out the live version of Nutriscore here:
 Here are some screenshots of the Nutriscore interface:
 
 <!-- Add your screenshots below -->
-![Homepage Screenshot](static\images\Homepage.png)
-![Search Results Screenshot](static\images\Results.png)
+![Homepage Screenshot](static/images/Homepage.png)
+![Search Results Screenshot](static/images/Results.png)
 
 ---
 
