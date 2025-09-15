@@ -277,6 +277,12 @@ button:hover {
       width: 350px;
       font-size: 1.6em;
   }
+
+  .no-style-link {
+    font-size: 1.1em;  
+}
+
+
 }
 
 /*Phones*/
@@ -329,4 +335,8 @@ button:hover {
       gap: 15px;
       font-size: 1.4em;
   }
+
+  .no-style-link {
+    font-size: 1em;  
+}
 }
