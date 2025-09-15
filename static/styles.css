@@ -253,64 +253,62 @@ button:hover {
   margin-top: 35px;
 }
 
-/*Shrinked Desktop*/
+/*Shrinked Desktop - Optimized Header*/
 @media (max-width: 1200px) and (min-width: 993px) {
   .navigation-wrapper {
       display: flex;
-      flex-wrap: wrap;        /* اجازه می‌دهد آیتم‌ها به خط بعدی بروند */
-      align-items: center;    /* وسط‌چین عمودی */
-      justify-content: center;/* وسط‌چین افقی */
-      padding: 50px 20px;     /* فضای بالا و پایین */
-      gap: 25px;               /* فاصله بین لوگو و nav-info */
-      height: auto;           /* ارتفاع خودکار */
+      flex-wrap: wrap;        
+      align-items: flex-start;    /* لوگو بالاتر قرار می‌گیرد */
+      justify-content: center;
+      padding: 70px 20px;         /* هدر بزرگتر */
+      gap: 40px;                  /* فاصله بین لوگو و nav-info */
+      height: auto;             
   }
 
   .navigation-wrapper > .logo-wrapper > .logo img {
-      transform: scale(4);    /* لوگو بزرگ ولی متناسب */
-      margin: 0 auto;         /* وسط‌چین کردن */
+      transform: scale(4);       
+      margin: 0 auto;            
       display: block;
   }
 
   .navigation-wrapper > .nav-info {
-      flex: 1 1 100%;         /* عرض کامل */
-      text-align: center;     /* متن وسط‌چین */
-      margin-top: 20px;       /* فاصله از لوگو */
-      padding-left: 0;        /* حذف padding اضافه */
+      flex: 1 1 100%;            
+      text-align: center;        
+      margin-top: 30px;           /* فاصله بیشتر از لوگو */
+      padding-left: 0;           
   }
 
   .no-style-link {
-      font-size: 1.1em;       /* اندازه فونت مناسب */
+      font-size: 1.1em;          
   }
 }
 
-
-/*Phones*/
-/* Phones - Optimized */
+/* Phones - Optimized Header */
 @media (max-width: 768px) {
   .navigation-wrapper {
       display: flex;
-      flex-direction: column;   /* آیتم‌ها روی هم قرار می‌گیرند */
-      align-items: center;      /* وسط‌چین عمودی */
-      justify-content: center;  /* وسط‌چین افقی */
-      padding: 40px 20px;       /* فضای کافی بالا و پایین */
-      gap: 20px;                /* فاصله بین لوگو و nav-info */
-      height: auto;             /* ارتفاع خودکار */
+      flex-direction: column;    
+      align-items: center;       
+      justify-content: flex-start; /* لوگو بالاتر */
+      padding: 60px 20px;        /* هدر بزرگتر */
+      gap: 35px;                 /* فاصله بین لوگو و nav-info */
+      height: auto;             
   }
 
   .navigation-wrapper > .logo-wrapper > .logo img {
-      transform: scale(3);      /* اندازه لوگو مناسب موبایل */
-      margin: 0 auto;           /* وسط‌چین کردن لوگو */
+      transform: scale(3);       
+      margin: 0 auto;            
       display: block;
   }
 
   .navigation-wrapper > .nav-info {
-      width: 100%;              /* عرض کامل */
-      text-align: center;       /* متن وسط‌چین */
-      margin-top: 15px;         /* فاصله از لوگو */
-      padding-left: 0;          /* حذف padding اضافی */
+      width: 100%;               
+      text-align: center;        
+      margin-top: 35px;          /* فاصله بیشتر از لوگو */
+      padding-left: 0;           
   }
 
   .no-style-link {
-      font-size: 1em;           /* اندازه فونت مناسب موبایل */
+      font-size: 1em;            
   }
 }
