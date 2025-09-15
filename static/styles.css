@@ -282,6 +282,14 @@ button:hover {
     font-size: 1.1em;  
 }
 
+.navigation-wrapper {
+  height: 320px;  
+}
+
+.navigation-wrapper>.nav-info {
+  padding-left: 0; 
+  justify-content: center;
+}
 
 }
 
@@ -338,5 +346,17 @@ button:hover {
 
   .no-style-link {
     font-size: 1em;  
+}
+
+.navigation-wrapper {
+  height: auto;   
+  padding: 40px 20px; 
+  flex-direction: column;
+}
+
+.navigation-wrapper>.nav-info {
+  padding-left: 0;
+  margin-top: 20px;
+  justify-content: center;
 }
 }
