@@ -253,15 +253,15 @@ button:hover {
   margin-top: 35px;
 }
 
-/*Shrinked Desktop - Optimized Header*/
+/*Shrinked Desktop - Optimized */
 @media (max-width: 1200px) and (min-width: 993px) {
   .navigation-wrapper {
       display: flex;
       flex-wrap: wrap;        
-      align-items: flex-start;    /* لوگو بالاتر قرار می‌گیرد */
+      align-items: flex-start;   
       justify-content: center;
-      padding: 70px 20px;         /* هدر بزرگتر */
-      gap: 40px;                  /* فاصله بین لوگو و nav-info */
+      padding: 70px 20px;       
+      gap: 40px;                
       height: auto;             
   }
 
@@ -274,24 +274,51 @@ button:hover {
   .navigation-wrapper > .nav-info {
       flex: 1 1 100%;            
       text-align: center;        
-      margin-top: 30px;           /* فاصله بیشتر از لوگو */
+      margin-top: 30px;          
       padding-left: 0;           
   }
 
   .no-style-link {
       font-size: 1.1em;          
   }
+
+  /* متن پاراگراف */
+  .about-container>.text-container p {
+      font-size: 1.05em;
+      line-height: 1.6em;
+      padding: 15px 60px;
+  }
+
+  /* تصاویر داخل squares */
+  .about-container>.squares-container>.square>.square-image img {
+      width: 70%;
+      max-width: 350px;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+  }
+
+  .about-container>.squares-container>.square>.square-text p {
+      font-size: 1em;
+      line-height: 1.5em;
+  }
+
+  .about-container>.squares-container>.square {
+      grid-template-columns: 1fr 1.5fr;
+      margin-left: 60px;
+      gap: 20px;
+  }
 }
 
-/* Phones - Optimized Header */
+/* Phones - Optimized */
 @media (max-width: 768px) {
   .navigation-wrapper {
       display: flex;
       flex-direction: column;    
       align-items: center;       
-      justify-content: flex-start; /* لوگو بالاتر */
-      padding: 60px 20px;        /* هدر بزرگتر */
-      gap: 35px;                 /* فاصله بین لوگو و nav-info */
+      justify-content: flex-start; 
+      padding: 60px 20px;       
+      gap: 35px;                
       height: auto;             
   }
 
@@ -304,11 +331,40 @@ button:hover {
   .navigation-wrapper > .nav-info {
       width: 100%;               
       text-align: center;        
-      margin-top: 35px;          /* فاصله بیشتر از لوگو */
+      margin-top: 35px;          
       padding-left: 0;           
   }
 
   .no-style-link {
       font-size: 1em;            
+  }
+
+  /* متن پاراگراف */
+  .about-container>.text-container p {
+      font-size: 0.95em;
+      line-height: 1.5em;
+      padding: 15px 20px;
+  }
+
+  /* تصاویر داخل squares */
+  .about-container>.squares-container>.square {
+      display: block;
+      margin-left: 0;
+      gap: 15px;
+  }
+
+  .about-container>.squares-container>.square>.square-image img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      display: block;
+      margin: 0 auto 15px;
+  }
+
+  .about-container>.squares-container>.square>.square-text p {
+      font-size: 0.95em;
+      line-height: 1.4em;
+      text-align: justify;
+      margin: 0 15px;
   }
 }
