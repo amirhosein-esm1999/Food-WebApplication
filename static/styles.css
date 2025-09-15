@@ -283,31 +283,41 @@ button:hover {
 }
 
 .navigation-wrapper {
-  height: 320px;  
-}
-
-.navigation-wrapper>.nav-info {
-  padding-left: 0; 
+  flex-wrap: wrap;      
+  align-items: center; 
   justify-content: center;
+  height: auto;          
+  padding: 30px 20px;   
 }
 
+.navigation-wrapper > .nav-info {
+  margin-top: 15px;     
+  padding-left: 0;      
+  text-align: center;   
+  flex: 1 1 100%;       
 }
+}
+
+
 
 /*Phones*/
 @media (max-width: 768px) {
   .navigation-wrapper {
-      height: auto;
-      padding: 20px;
-  }
+    flex-direction: column;  
+    align-items: center;      
+    justify-content: center;
+    height: auto;             
+    padding: 20px;            
+}
 
+.navigation-wrapper > .nav-info {
+    margin-top: 15px;         
+    padding-left: 0;          
+    text-align: center;      
+}
   .navigation-wrapper>.logo-wrapper>.logo img {
       transform: scale(3);
       margin: 0 auto;
-  }
-
-  .navigation-wrapper>.nav-info {
-      padding-left: 0;
-      flex-direction: column;
   }
 
   .about-container>.text-container p {
