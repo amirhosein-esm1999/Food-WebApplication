@@ -1,6 +1,6 @@
-# Nutriscore
+# Nutriscope
 
-Nutriscore is a web-based application that allows users to search and explore nutritional data of food products based on country of origin and brand. It scrapes data from [OpenFoodFacts](https://world.openfoodfacts.org/) and stores it in a local database, providing a clean and intuitive frontend for user interaction.
+Nutriscope is a web-based application that allows users to search and explore nutritional data of food products based on country of origin and brand. It scrapes data from [OpenFoodFacts](https://world.openfoodfacts.org/) and stores it in a local database, providing a clean and intuitive frontend for user interaction.
 
 ---
 
@@ -25,7 +25,7 @@ Nutriscore is a web-based application that allows users to search and explore nu
 
 ## Live Demo
 
-Check out the live version of Nutriscore here:
+Check out the live version of Nutriscope here:
 
 🔗 [Live Demo](https://web-production-31a1.up.railway.app/)
 
@@ -33,9 +33,9 @@ Check out the live version of Nutriscore here:
 
 ## Screenshots
 
-Here are some screenshots of the Nutriscore interface:
+Here are some screenshots of the Nutriscope interface:
 
-<!-- Add your screenshots below -->
+
 ![Homepage Screenshot](static/images/Homepage.png)
 ![Search Results Screenshot](static/images/Results.png)
 
@@ -46,4 +46,4 @@ Here are some screenshots of the Nutriscore interface:
 You can pull the project directly from GitHub:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Nutriscore.git
+git clone https://github.com/amirhosein-esm1999/Nutriscope.git
