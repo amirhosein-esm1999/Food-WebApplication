@@ -1,6 +1,6 @@
-# Nutriscope
+# Food-WebApplication
 
-Nutriscope is a web-based application that allows users to search and explore nutritional data of food products based on country of origin and brand. It scrapes data from [OpenFoodFacts](https://world.openfoodfacts.org/) and stores it in a local database, providing a clean and intuitive frontend for user interaction.
+Food-WebApplication is a web-based application that allows users to search and explore nutritional data of food products based on country of origin and brand. It scrapes data from [OpenFoodFacts](https://world.openfoodfacts.org/) and stores it in a local database, providing a clean and intuitive frontend for user interaction.
 
 ---
 
@@ -46,4 +46,4 @@ Here are some screenshots of the Nutriscope interface:
 You can pull the project directly from GitHub:
 
 ```bash
-git clone https://github.com/amirhosein-esm1999/Nutriscope.git
+git clone https://github.com/amirhosein-esm1999/Food-WebApplication.git
